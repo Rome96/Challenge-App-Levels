@@ -7,25 +7,25 @@ const Levels = [
     id: 1,
     name: 'Rookie',
     benefits: 4,
-    logo: require('../../../assets/images/Rookie.png'),
+    logo: require('@Assets/images/Rookie.png'),
   },
   {
     id: 2,
     name: 'Profesional',
     benefits: 6,
-    logo: require('../../../assets/images/Profesional.png'),
+    logo: require('@Assets/images/Profesional.png'),
   },
   {
     id: 3,
     name: 'Adicter',
     benefits: 8,
-    logo: require('../../../assets/images/Adicter.png'),
+    logo: require('@Assets/images/Adicter.png'),
   },
   {
     id: 4,
     name: 'Preminum',
     benefits: 10,
-    logo: require('../../../assets/images/Premium.png'),
+    logo: require('@Assets/images/Premium.png'),
   }
 ];
 
@@ -36,7 +36,7 @@ const LevelList = () => {
         <View style={styles.containerTitleLevel}>
           <Image
             style={{height: 20, width: 20}}
-            source={require('../../../assets/images/icon.png')}
+            source={require('@Assets/images/icon.png')}
           />
           <Text style={styles.titleLevel}>Niveles</Text>
         </View>

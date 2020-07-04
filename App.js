@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Text, StatusBar, StyleSheet, SafeAreaView} from 'react-native';
-import Header from './src/components/Header'
-import Level from './src/components/Level'
+import Header from '@Components/Header'
+import Level from '@Components/Level'
 
 const App = () => {
   return (

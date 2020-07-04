@@ -2,10 +2,13 @@ import React from "react";
 import ProgressCircle from 'react-native-progress-circle';
 import { View, Text, StyleSheet, Image, ScrollView } from "react-native";
 import LevelList from './levelList/LevelList'
-
+import BecomePremium from './BecomePremium'
 const Level = () => {
   return (
-    <ScrollView style={styles.container}>
+    <ScrollView
+    style={styles.container}
+    showsVerticalScrollIndicator={false}
+    >
       <View style={styles.containerInfo}>
         <Text style={styles.name}>Hola, John!</Text>
         <View style={styles.containerImg}>
@@ -52,7 +55,7 @@ const Level = () => {
             >
               <Image
                 style={{width: 105, height: 105}}
-                source={require('../../assets/images/Rookie.png')}
+                source={require('@Assets/images/Rookie.png')}
               />
             </ProgressCircle>
           </View>
@@ -82,6 +85,7 @@ const Level = () => {
         </View>
       </View>
       <LevelList/>
+      <BecomePremium/>
     </ScrollView>
   );
 };

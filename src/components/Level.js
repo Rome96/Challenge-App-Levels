@@ -1,6 +1,7 @@
 import React from "react";
 import ProgressCircle from 'react-native-progress-circle';
 import { View, Text, StyleSheet, Image, ScrollView } from "react-native";
+import LevelList from './levelList/LevelList'
 
 const Level = () => {
   return (
@@ -57,10 +58,10 @@ const Level = () => {
           </View>
           <View style={styles.containerIcon}>
             <View style={{
-              height: 3,
               width: 3,
+              height: 3,
+              borderRadius: 4 / 2,
               backgroundColor: '#CDD4E0',
-              borderRadius: 4 / 2
             }}/>
             <View style={{
               width: 3,
@@ -72,7 +73,7 @@ const Level = () => {
           </View>
         </View>
         <View style={styles.containerSgtLevel}>
-          <Text style={[styles.textSgtLevel, { fontFamily: 'Muli', marginRight: 4 }]}>
+          <Text style={[styles.textSgtLevel, { fontFamily: 'Muli-Regular', marginRight: 4 }]}>
             Siguiente Nivel: 
           </Text>
           <Text style={[styles.textSgtLevel, { fontFamily: 'Muli-ExtraBold' }]}>
@@ -80,6 +81,7 @@ const Level = () => {
           </Text>
         </View>
       </View>
+      <LevelList/>
     </ScrollView>
   );
 };
@@ -89,7 +91,7 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingTop: 10,
     paddingHorizontal: 20,
-    backgroundColor: '#fff',
+    backgroundColor: '#FFF',
   },
   containerInfo: {
     width: '100%',

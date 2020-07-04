@@ -23,13 +23,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     flexDirection: 'row',
     paddingHorizontal: 20,
-    backgroundColor: 'red',
+    backgroundColor: '#FFF',
     justifyContent: 'space-between',
   },
   title: {
-    fontSize: 18,
-    fontWeight: '700',
-    
+    fontSize: 20,
+    fontFamily: 'Muli-Bold'
   },
 });
 

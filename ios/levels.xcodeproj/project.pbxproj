@@ -30,6 +30,7 @@
 		050A810EE6CE4466ADAA5218 /* Muli-Semi-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B08FA5DC3C76477F9FBA118A /* Muli-Semi-BoldItalic.ttf */; };
 		4D8043F807D145CDBCBF6B01 /* Muli-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 68E8A9E541EB4AFB88E9058C /* Muli-SemiBold.ttf */; };
 		6A15314970A74C11852519E4 /* Muli.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B7C8157305CA436B9BD3CE89 /* Muli.ttf */; };
+		34E342BDD3A145FA94E9CB1D /* Muli-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3633131218A429D93F35B84 /* Muli-ExtraBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +104,7 @@
 		B08FA5DC3C76477F9FBA118A /* Muli-Semi-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Muli-Semi-BoldItalic.ttf"; path = "../assets/fonts/Muli-Semi-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		68E8A9E541EB4AFB88E9058C /* Muli-SemiBold.ttf */ = {isa = PBXFileReference; name = "Muli-SemiBold.ttf"; path = "../assets/fonts/Muli-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		B7C8157305CA436B9BD3CE89 /* Muli.ttf */ = {isa = PBXFileReference; name = "Muli.ttf"; path = "../assets/fonts/Muli.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B3633131218A429D93F35B84 /* Muli-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Muli-ExtraBold.ttf"; path = "../assets/fonts/Muli-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -271,6 +273,7 @@
 				B08FA5DC3C76477F9FBA118A /* Muli-Semi-BoldItalic.ttf */,
 				68E8A9E541EB4AFB88E9058C /* Muli-SemiBold.ttf */,
 				B7C8157305CA436B9BD3CE89 /* Muli.ttf */,
+				B3633131218A429D93F35B84 /* Muli-ExtraBold.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -430,6 +433,7 @@
 				050A810EE6CE4466ADAA5218 /* Muli-Semi-BoldItalic.ttf in Resources */,
 				4D8043F807D145CDBCBF6B01 /* Muli-SemiBold.ttf in Resources */,
 				6A15314970A74C11852519E4 /* Muli.ttf in Resources */,
+				34E342BDD3A145FA94E9CB1D /* Muli-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

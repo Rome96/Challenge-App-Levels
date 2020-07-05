@@ -8,7 +8,7 @@ const App = () => {
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView style={{flex: 1}}>
-        <View style={{flex: 1, backgroundColor: '#F4F4F4'}}>
+        <View style={{flex: 1}}>
           <Header />
           <Level />
         </View>

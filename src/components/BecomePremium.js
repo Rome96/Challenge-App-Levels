@@ -32,6 +32,7 @@ const BecomePremium = () => {
       </View>
       <TouchableOpacity
         // onPress={{}}
+        activeOpacity={0.6}
         style={styles.containerButton}
       >
         <Text style={styles.textButton}>Obtener acceso rápido</Text>
@@ -47,7 +48,6 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     borderRadius: 20,
     marginVertical: 10,
-    backgroundColor: 'pink',
   },
   containerInfo: {
     alignItems: 'center',

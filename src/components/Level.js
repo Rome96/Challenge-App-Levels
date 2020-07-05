@@ -3,7 +3,7 @@ import ProgressCircle from 'react-native-progress-circle';
 import { View, Text, StyleSheet, Image, ScrollView, TouchableOpacity } from "react-native";
 import LevelList from './levelList/LevelList'
 import BecomePremium from './BecomePremium'
-import Challenge from './Challenge'
+import Challenge from './challenge/Challenge'
 import Benefit from './Benefit';
 
 const Level = () => {
@@ -50,10 +50,11 @@ const Level = () => {
             <ProgressCircle
               percent={38}
               radius={70}
-              borderWidth={8}
+              borderWidth={5}
               color="#F57497"
               shadowColor="#F4F7FD"
-              bgColor="#fff">
+              bgColor="#fff"
+            >
               <Image
                 style={{width: 105, height: 105, resizeMode: 'contain'}}
                 source={require('@Assets/images/Rookie.png')}
@@ -258,7 +259,7 @@ const styles = StyleSheet.create({
   SectionItemsLevel: {
     padding: 15,
     marginTop: 15,
-    backgroundColor: '#FFF',
+    backgroundColor: '#F9FBFF',
     elevation: 1,
     shadowOffset: {
       width: -0.8,

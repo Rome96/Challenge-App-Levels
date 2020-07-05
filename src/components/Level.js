@@ -4,7 +4,7 @@ import { View, Text, StyleSheet, Image, ScrollView, TouchableOpacity } from "rea
 import LevelList from './levelList/LevelList'
 import BecomePremium from './BecomePremium'
 import Challenge from './challenge/Challenge'
-import Benefit from './Benefit';
+import Benefit from './benefit/Benefit';
 
 const Level = () => {
   const [challenge, setChallenge] = useState(true)

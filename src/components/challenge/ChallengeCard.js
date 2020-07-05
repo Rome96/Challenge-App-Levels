@@ -19,7 +19,7 @@ const ChallengeCard = props => {
         color="#659EFF"
         shadowColor="#F4F7FD"
         bgColor="#fff">
-        <Text>{cant}</Text>
+        <Text style={styles.cant}>{cant}</Text>
       </ProgressCircle>
     </View>
   );
@@ -49,6 +49,11 @@ const styles = StyleSheet.create({
     fontSize: 12,
     color: '#8A97AD',
     fontFamily: 'Muli-SemiBold',
+  },
+  cant: {
+    fontSize: 12,
+    color: '#B6BFCE',
+    fontFamily: 'Muli-Bold'
   },
 });
 
